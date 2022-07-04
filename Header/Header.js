@@ -2,4 +2,8 @@ const Header = "Header imaginario 🤾‍♂️🤾‍♀️"
 
 function HaceCosasMaravillosas(){
     let hola = "devuelve cosas increibles"
+    for(let i=0;i<Math.ceil(Math.random()*20);i++){
+        hola= hola + '!'
+    }
+    return hola
 }

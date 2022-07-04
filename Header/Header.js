@@ -7,3 +7,5 @@ function HaceCosasMaravillosas(){
     }
     return hola
 }
+
+console.log(`${HaceCosasMaravillosas} pero uno nunca sabe cuantos ! pueden existir`)
